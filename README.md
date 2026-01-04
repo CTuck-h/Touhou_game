@@ -9,7 +9,6 @@ Bare-Metal Hardware Control: Implemented direct interfacing with the ARM Cortex-
 
 **Touhou Arcade Game**
 A high-performance, bare-metal implementation of a bullet-hell style arcade game developed for the Texas Instruments MSP432. This project demonstrates low-level hardware-software integration by managing real-time graphics and complex projectile logic without an operating system.
-+2
 
 **Key Technical Features**
 Non-Blocking Engine: Developed a custom C engine in main.c that utilizes hardware timers instead of delay loops, ensuring the system remains responsive to user inputs at all times.
